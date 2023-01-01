@@ -20,7 +20,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: copy static files to output dir
-        run: mkdir -p output && cp -R index.html contract assets output/
+        run: mkdir -p output && cp -R index.html contract appointment assets output/
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
         with:
