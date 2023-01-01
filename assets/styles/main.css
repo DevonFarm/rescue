@@ -18,12 +18,12 @@ i.fa-pad-right {
 }
 
 header > img {
-  min-width: 450px;
-  max-width: min(915px, 100%);
+  min-width: 300px;
+  max-width: min(550px, 100%);
   width: fit-content;
-  margin-top: 0.5rem;
+  margin: 1rem 0;
 }
 
 body > header {
-  padding: 0.5rem;
+  padding: 0rem 0.5rem;
 }
