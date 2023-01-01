@@ -13,9 +13,15 @@ ul > li {
   font-size: 1.3rem;
 }
 
+i.fa-file-lines,
+i.fa-file-contract {
+  margin-right: 0.5rem;
+}
+
 header > img {
   min-width: 450px;
-  max-width: 915px;
+  max-width: min(915px, 100%);
+  width: fit-content;
   margin-top: 0.5rem;
 }
 
