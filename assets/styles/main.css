@@ -21,9 +21,18 @@ header > img {
   min-width: 300px;
   max-width: min(550px, 100%);
   width: fit-content;
-  margin: 1rem 0;
+  margin: 1rem 0 0.25rem 0;
 }
 
 body > header {
   padding: 0rem 0.5rem;
+}
+
+header > nav {
+  padding: 0;
+}
+
+header > nav a.current {
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
 }
