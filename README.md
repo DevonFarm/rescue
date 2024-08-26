@@ -1,3 +1,3 @@
 # rescue
 
-source for devonfarmrescue.com assets
+source for doodleloverz.com assets
