@@ -1,3 +1,3 @@
 # rescue
 
-source for doodleloverz.com assets
+source for doodledandy.dog assets
