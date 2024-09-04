@@ -45,7 +45,8 @@ header > nav a.current {
   min-width: 300px;
   max-width: min(550px, 100%);
   width: fit-content;
-  margin: 1rem 0 0.25rem 0;
+  margin: 1rem auto;
+  display: block;
 }
 
 div.links {
