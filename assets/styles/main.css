@@ -3,9 +3,13 @@
     "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
 }
 
+body {
+  padding-bottom: 3rem;
+}
+
 ul {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 ul > li {
@@ -35,4 +39,28 @@ header > nav {
 header > nav a.current {
   color: var(--accent) !important;
   border-color: var(--accent) !important;
+}
+
+.dog {
+  min-width: 300px;
+  max-width: min(550px, 100%);
+  width: fit-content;
+  margin: 1rem auto;
+  display: block;
+}
+
+div.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.gooddog {
+  width: min-content;
+}
+
+.gd {
+  min-width: 200px;
+  max-width: min(100px, 40%);
+  /* margin: 1rem 0; */
 }
