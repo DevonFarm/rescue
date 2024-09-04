@@ -5,7 +5,7 @@
 
 ul {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 ul > li {
@@ -44,9 +44,19 @@ header > nav a.current {
   margin: 1rem 0 0.25rem 0;
 }
 
+div.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+a.gooddog {
+  width: min-content;
+}
+
 .gd {
   min-width: 200px;
   max-width: min(100px, 40%);
-  width: fit-content;
-  margin: 1rem 0 0.25rem 0;
+  /* margin: 1rem 0; */
 }
